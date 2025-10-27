@@ -1,0 +1,66 @@
+ALGERIA VFR EFB - SETUP INSTRUCTIONS
+=====================================
+
+📱 WHAT YOU'LL GET:
+- Live GPS map with flight tracking
+- Waypoint management system
+- Algeria VFR references and airport info
+- Emergency frequencies and procedures
+
+🖥️ COMPUTER SETUP (Windows/Mac/Linux):
+
+1. DOWNLOAD & EXTRACT:
+   - Download the AlgeriaVFR-App.zip file
+   - Extract it to a folder (like Desktop/AlgeriaVFR)
+
+2. INSTALL NODE.JS:
+   - Go to: https://nodejs.org/
+   - Download and install the LTS version
+   - Restart your computer
+
+3. OPEN TERMINAL/COMMAND PROMPT:
+   Windows: Press Windows+R, type "cmd", press Enter
+   Mac: Press Cmd+Space, type "Terminal", press Enter
+   Linux: Press Ctrl+Alt+T
+
+4. NAVIGATE TO APP FOLDER:
+   cd Desktop/AlgeriaVFR
+   (or wherever you extracted the files)
+
+5. INSTALL DEPENDENCIES:
+   npm install
+
+6. START THE APP:
+   npx expo start
+
+📱 PHONE SETUP (Android):
+
+1. INSTALL EXPO GO:
+   - Open Google Play Store
+   - Search "Expo Go"
+   - Install the app
+
+2. CONNECT TO APP:
+   - Open Expo Go on your phone
+   - Scan the QR code from your computer screen
+   - App will load automatically!
+
+🚀 USAGE:
+- Map tab: See live GPS position and flight data
+- Waypoints tab: Add/manage flight waypoints
+- VFR tab: Algeria aviation references
+
+⚠️ TROUBLESHOOTING:
+- Make sure phone and computer are on same WiFi
+- Allow location permissions when prompted
+- If QR code doesn't work, try "npx expo start --tunnel"
+
+📧 The app includes:
+✅ Real-time GPS tracking
+✅ Flight path recording
+✅ Waypoint distance/bearing calculations
+✅ Algeria airports and frequencies
+✅ Emergency procedures
+✅ Weather links
+
+ENJOY YOUR FLIGHTS! 🛩️
